@@ -1,0 +1,843 @@
+/*
+* Project: NL Insurance & Accounting Solutions (2017)
+* Author: Marcelo Glacial
+* Starts on: 27/03/2017
+* Images: https://unsplash.com
+* Icons: https://icons8.com/
+*/
+
+/* NOTE: General
+-------------------------------------------------- */
+.goldenbar {
+  display: block;
+  max-width: 500px;
+  height: 8px;
+  margin: 0 auto;
+  background-color: #D2AB68;
+}
+body.logged,
+body.logged .navbar {
+  margin-top: 32px;
+}
+
+/* NOTE: Fonts
+-------------------------------------------------- */
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  height: 100%;
+  background: #09294D;
+}
+
+/* NOTE: Main
+-------------------------------------------------- */
+#Main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 80px 0 0 0;
+  background: #FFF;
+}
+
+
+/* NOTE: Header
+-------------------------------------------------- */
+header {
+  position: relative;
+}
+.navbar-default {
+  background-color: #FFF !important;
+  border: none;
+  border-bottom: solid 3px #f9f9f9;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+.navbar .container .navbar-brand {
+  position: absolute;
+  display: block;
+  width: 220px;
+  height: 126px;
+  background: url("../img/logo.png") center 25px no-repeat #FFFFFF;
+  background-size: 180px;
+  text-indent: -9999px;
+
+  border-bottom: solid 10px #D2AB68;
+  transition: all 0.3s;
+}
+.navbar .navbar-nav li a {
+  height: 80px;
+  padding-top: 30px;
+
+  color: #09294D;
+}
+.navbar .navbar-nav li a:hover,
+.navbar-default .navbar-nav>.active>a:hover {
+  background-color: #D2AB68;
+  color: #FFF;
+}
+.navbar .current_page_item,
+.navbar-default .navbar-nav>.active>a {
+  background: url("../img/menu-over.png") no-repeat center 53px;
+  color: #09294D;
+
+}
+.navbar-nav .children {
+  position: absolute;
+  list-style: none;
+  padding: 10px 20px;
+  background: #FFF;
+  border: solid 3px #f9f9f9;
+  border-top: none;
+  min-width: 200px;
+
+  display: none;
+}
+.navbar .navbar-nav li:hover .children {
+  display: block;
+}
+
+.navbar .navbar-nav .children li a {
+  padding: 10px 0;
+  height: 40px;
+  color: #D2AB68;
+  display: inline-block;
+}
+.navbar .navbar-nav .children li a:hover {
+  background: none;
+}
+.navbar .sandwich {
+  display: block;
+  width: 25px;
+  height: 15px;
+  background: url("../img/sandwich.png");
+}
+
+.top-nav-collapse {
+  border-bottom: solid 3px #D2AB68;
+  transition: all 0.3s;
+}
+.top-nav-collapse .container .navbar-brand {
+  height: 80px;
+  top: 0;
+  background-position: center 10px;
+  background-size: 60%;
+  border: none;
+}
+.top-nav-collapse .navbar-nav .children {
+  border-color: #D2AB68;
+}
+
+/* NOTE: Hero Carousel
+-------------------------------------------------- */
+.carousel {
+  max-height: 600px;
+  overflow: hidden;
+}
+.carousel-indicators {
+  /* Reset BS */
+  bottom: auto;
+  margin: auto;
+  left: 0;
+  padding: 0;
+
+  top: 30px;
+  width: 95%;
+  text-align: right;
+}
+.carousel-indicators li {
+  background: #FFF;
+  margin-left: 10px;
+}
+.carousel-indicators .active {
+  border-color: #D2AB68;
+  border-width: medium;
+  margin-left: 10px;
+}
+.carousel-caption {
+  /* Reset BS */
+  right: auto;
+  left: auto;
+  bottom: auto;
+  top: 0;
+  min-height: 100%;
+  width: 100%;
+  padding: 100px 0 0 55px;
+
+  background: url("../img/hero-rectangle.svg") no-repeat top left;
+  text-align: left;
+  font-size: 18px;
+}
+.carousel-caption h3 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.carousel-caption p {
+  color: #FFF;
+  text-align: left;
+}
+.carousel-caption a {
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 20px 39px;
+  border: solid 2px #D2AB68;
+  color: #FFF;
+}
+.carousel-caption h3,
+.carousel-caption p,
+.carousel-caption a {
+  max-width: 380px;
+  margin-bottom: 30px;
+}
+.carousel img {
+  min-width: 100%;
+}
+.carousel a.left {
+  display: none;
+}
+
+/* NOTE: Sections General
+-------------------------------------------------- */
+section {
+  clear: both;
+}
+h4 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #4A4A4A;
+  letter-spacing: -3px;
+  margin: 0;
+  padding: 0;
+}
+
+section p {
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+}
+
+
+/* NOTE: Services
+-------------------------------------------------- */
+#Services {
+  padding: 55px;
+
+}
+#Services ul {
+  padding: 0;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+#Services ul li {
+  list-style: none;
+  text-align: center;
+  height: 200px;
+  padding-top: 50px;
+
+  display: inline-block;
+  width: 24%;
+}
+#Services ul li a {
+  color: #09294D;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#Services img {
+  display: block;
+  margin: 20px auto;
+  height: 46px;
+}
+
+/* NOTE:  Inline icons */
+
+.carousel {
+  max-height: 450px;
+}
+
+#Services {
+  padding: 0;
+}
+#Services h4,
+#Services p {
+  display: none;
+}
+#Services ul {
+  max-width: 100%;
+  padding: 20px 0;
+}
+#Services ul li {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  width: 10%;
+}
+
+/* NOTE: Video
+-------------------------------------------------- */
+#Video {
+  background: #09294D;
+  padding: 80px 190px 0 190px;
+}
+#Video h4 {
+  font-size: 60px;
+  color: #FFF;
+}
+#Video p {
+  color: #FFF;
+  padding-bottom: 40px;
+}
+#Video .goldenbar {
+  margin-top: 80px;
+}
+
+/* NOTE: Visit
+-------------------------------------------------- */
+#Visit {
+  position: relative;
+  margin-bottom: 130px;
+}
+#Visit img {
+  max-width: 100%;
+}
+#Visit .visit-box {
+  width: 460px;
+  text-align: center;
+  border: solid 3px #D2AB68;
+  border-bottom-width: 10px;
+  padding: 30px 0 10px 0;
+  background: #FFF;
+
+  position: absolute;
+  bottom: -90px;
+  left: 50%;
+  margin-left: -230px;
+}
+#Visit h4,
+#Visit h4 a {
+  color: #09294D;
+}
+
+/* NOTE: Social
+-------------------------------------------------- */
+#Social * {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+#Social ul {
+  max-width: 458px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 50px;
+}
+#Social ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+/* NOTE: Contact / Footer
+-------------------------------------------------- */
+#Contact {
+  border-bottom: solid 10px #D2AB68;
+}
+#Contact .contact {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 35px 0 25px 0;
+
+  text-align: center;
+  background: #09294D;
+}
+#Contact h4 a {
+  color: #D2AB68;
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+#Contact p {
+  margin: 0;
+}
+#Contact a {
+  color: #FFF;
+  font-size: 18px;
+}
+#Contact h6 a {
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 10px;
+}
+#Contact .creator,
+#Contact .creator a {
+  font-size: 6px;
+  color: #FFF;
+}
+
+
+/* NOTE: Pages
+-------------------------------------------------- */
+.pages-header {
+  position: relative;
+  overflow: hidden;
+  max-height: 270px;
+}
+.pages-header h2 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #FFF;
+  letter-spacing: -3px;
+
+  background: url("../img/hero-rectangle.svg") no-repeat top left;
+
+  position: absolute;
+  top: 0;
+  min-width: 100%;
+  padding: 7% 0 130px 55px;
+  margin: 0;
+}
+.pages-header img {
+  min-width: 100%;
+}
+
+
+article {
+  margin: 0 auto;
+  padding: 60px 100px;
+  max-width: 1100px;
+}
+article h3 {
+  font-size: 44px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  text-align: center;
+
+  padding: 15px 40px;
+  margin-bottom: 40px;
+  border: solid 2px #D2AB68;
+  color: #4A4A4A;
+}
+article h4 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: normal;
+  padding: 50px 0 20px 0;
+}
+article p {
+  font-size: 18px;
+  line-height: 1.8em;
+  padding-bottom: 1.5em;
+  color: #4A4A4A;
+  text-align: left;
+}
+article ol,
+article ul {
+  font-size: 18px;
+  padding-left: 100px;
+  padding-bottom: 2em;
+}
+article blockquote {
+  color: #000;
+  font-style: italic;
+  max-width: 80%;
+  margin: 0 auto 40px auto;
+}
+article img {
+  max-width: 100%;
+}
+article p a {
+  color: #D2AB68;
+  font-weight: bold;
+}
+article p a:hover {
+  color: #D2AB68;
+  border-bottom: solid 3px;
+  text-decoration: none;
+}
+
+
+/* NOTE: Cotes
+-------------------------------------------------- */
+.cote-list * {
+  margin: 0;
+  padding: 0;
+}
+.cote-list ul li {
+  list-style: none;
+  text-align: center;
+  border: solid 3px #D2AB68;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.cote-list a {
+  font-size: 40px;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  color: #4A4A4A;
+}
+
+/* NOTE: Forms
+-------------------------------------------------- */
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.content form {
+  padding-bottom: 50px;
+}
+.caldera-grid input.btn,
+.content form button {
+  background: #D2AB68;
+  border: none;
+  color: #FFF;
+}
+.caldera-grid input.btn:hover,
+.content form button:hover {
+  background: #09294D;
+  color: #FFF;
+}
+.caldera-grid div h4,
+.caldera-grid .form-group {
+  width: 70%;
+  margin: 0 auto;
+}
+.caldera-grid  .form-group .cfdatepicker {
+  width: auto;
+}
+
+
+/* NOTE: Blog
+-------------------------------------------------- */
+.blog-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border-top: solid 1px #F1F1F1;
+}
+.blog-list a {
+  display: inline-block;
+  min-width: 100%;
+  padding: 15px 0;
+  border-bottom: solid 1px #F1F1F1;
+
+  color: #09294D;
+}
+.blog-list a:hover {
+  color: #D2AB68;
+  text-decoration: none;
+}
+.blog-content h3 {
+  font-size: 30px;
+  letter-spacing:0;
+}
+.blog-content h4 {
+  padding: 10px 0;
+  border-top: solid 1px #C4c4c4;
+
+  font-size: 14px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #C4C4C4;
+  text-align: center;
+  text-transform: capitalize;
+}
+.blog-content img {
+  max-width: 100%;
+  height: 100%;
+}
+
+
+.prev-next-posts {
+  text-align: center;
+}
+.prev-next-posts div {
+  display: inline-block;
+  width: 49%;
+  padding: 20px 0;
+}
+.prev-next-posts a {
+  color: #D2AB68;
+}
+.prev-posts-link {
+  text-align: left;
+}
+.next-posts-link {
+  text-align: right;
+}
+
+/* -------------------------------------------------- */
+/*   NOTE: Responsive Mode */
+/* -------------------------------------------------- */
+
+
+/* NOTE: Tablets  -------*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .navbar .container .navbar-brand {
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  .navbar .navbar-nav li {
+    font-size: 80%;
+  }
+  .carousel-caption {
+    padding-top: 55px;
+  }
+  body.logged .top-nav-collapse .container .navbar-brand {
+    height: 70px;
+    width: 200px;
+  }
+}
+
+/* NOTE: 800 x 600  -------*/
+@media screen and (min-width: 780px) and (max-width: 810px){
+  .navbar .container .navbar-brand {
+    width: 100px;
+    height: 43px;
+
+    left: 18px;
+    top: 14px;
+    background-position: left top;
+    background-size: contain;
+    border: none;
+  }
+  .navbar {
+    font-size: 90%;
+  }
+  body.logged .top-nav-collapse .container .navbar-brand {
+    width: 100px;
+    height: 43px;
+  }
+}
+
+/* NOTE: Phones  -------*/
+@media screen and (max-width: 768px) {
+
+  /* NOTE: Wordpress Admin bar */
+  body.logged #wpadminbar {
+    position: fixed;
+  }
+  body.logged,
+  body.logged .navbar {
+    margin-top: 46px;
+  }
+
+  #Main {
+    padding-top: 74px;
+  }
+  .goldenbar {
+    max-width: 200px;
+    height: 5px;
+  }
+
+  /* NOTE: Navbar */
+  .navbar-default {
+    border: none;
+    border-bottom: solid 4px #D2AB68;
+  }
+  .navbar-header {
+    height: 70px;
+  }
+  .navbar-default .navbar-toggle {
+    margin-top: 20px;
+    border: none;
+  }
+  .navbar-default .navbar-toggle:hover {
+    background: none;
+  }
+  .navbar-default .navbar-nav>.active>a {
+    background: none;
+  }
+  .navbar .container .navbar-brand {
+    width: 100px;
+    height: 43px;
+
+    left: 18px;
+    top: 14px;
+    background-position: left top;
+    background-size: contain;
+    border: none;
+  }
+  .navbar-nav .children {
+    position: relative;
+    display: block;
+    top:-30px;
+    border: none;
+  }
+  .navbar .navbar-nav li a:hover {
+    background: #FFF;
+    color: #000;
+  }
+
+  .navbar .navbar-nav .children li a {
+    padding: 10px 0 10px 30px;
+  }
+
+
+  /* NOTE: Carousel  */
+  .carousel {
+    max-height: none;
+  }
+  .carousel-caption {
+    position: static;
+    padding: 20px 50px;
+    background: #09294D;
+    width: 100%;
+    text-align: center;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-caption h3,
+  .carousel-caption p,
+  .carousel-caption a {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* NOTE: Sections General */
+  section h4 {
+    font-size: 28px;
+    letter-spacing: -1px;
+  }
+
+  /* NOTE: Services  */
+  #Services {
+    padding: 30px 20px;
+  }
+  #Services ul li {
+    width: 45%;
+  }
+
+  /* NOTE: Video */
+  #Video {
+    background: #09294D;
+    padding: 40px 35px 0 35px;
+
+  }
+  #Video p {
+    padding-bottom: 20px;
+  }
+  #Video h4 {
+    font-size: 24px;
+  }
+  #Video .goldenbar {
+    margin-top: 50px;
+  }
+
+  /* NOTE: Visit */
+  #Visit address {
+    font-size: 12px;
+  }
+  #Visit .visit-box {
+    width: 70%;
+    margin-left: -35%;
+  }
+  #Social {
+    padding-bottom: 0px;
+  }
+
+  /* NOTE: Social  */
+  #Social ul {
+    max-width: 100%;
+  }
+  #Social ul li {
+    padding: 8px;
+  }
+  #Social ul li img {
+    height: 25px;
+    width: 25px;
+  }
+
+  /* NOTE: Contact */
+  #Contact {
+    border-width: 7px;
+  }
+  #Contact .contact {
+    max-width: 85%;
+    padding: 0 0 15px 0;
+  }
+  #Contact h4 a {
+    font-size: 35px;
+    padding-bottom: 15px;
+  }
+  #Contact a {
+    font-size: 14px;
+  }
+  #Contact h6 a {
+    padding-top: 15px;
+    font-size: 10px;
+  }
+
+
+  /* NOTE: Pages */
+  .pages-header h2 {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -1px;
+    padding-left: 0px;
+    padding-top: 5%;
+  }
+  article {
+    padding: 25px;
+  }
+  article h3 {
+    font-size: 20px;
+    letter-spacing: -1px;
+
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  article h4 {
+    font-size: 20px;
+    padding: 20px 0;
+  }
+  article p {
+    font-size: 14px;
+    line-height: 2em;
+  }
+  article ul {
+    font-size: 14px;
+    padding-left: 40px;
+  }
+  article blockquote {
+    max-width: 100%;
+    font-size: 14px;
+  }
+
+  /* NOTE: Forms */
+  .content {
+    padding-left:20px;
+    padding-right: 20px;
+  }
+  .content form button {
+    min-width: 100%;
+  }
+  .content article {
+    padding-bottom: 0;
+  }
+  .cote-list a {
+    font-size: 18px;
+  }
+  .caldera-grid div h4,
+  .caldera-grid .form-group {
+    width: 90%;
+  }
+
+
+}
+
+
+
+/* NOTE: Small Phones  -------*/
+@media screen and (max-width: 320px) {
+  .carousel-caption {
+    font-size: 90%;
+  }
+  .pages-header h2 {
+    font-size: 25px;
+  }
+  #Services ul li {
+    width: 100%;
+  }
+}

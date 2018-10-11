@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+	Chef:Marcelo Glacial
+	Contact: glacial [at] gmail.com
+	Twitter: @glacial
+	From: Fortaleza, Brazil
+
+
+/* THANKS */
+
+	Sergiana Freitas
+	Vladimir Cezar
+
+
+
+/* SITE */
+	Language: English / Portuguese
+	Doctype:HTML5
+	IDE: Atom, Sketch
+	Tools: Bootstrap 3, Wordpress, Git
