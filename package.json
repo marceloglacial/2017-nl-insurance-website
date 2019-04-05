@@ -1,17 +1,17 @@
 {
-  "name": "snowfall-boilerplate",
-  "version": "0.0.7",
-  "description": "End-to-end web project based on three stages:  Design, Front-end and Back-end",
+  "name": "2017-nl-insurance-website",
+  "version": "0.0.1",
+  "description": "NL Insurance Agency",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marceloglacial/snowfall-boilerplate.git"
+    "url": "git+https://github.com/marceloglacial/2017-nl-insurance-website.git"
   },
   "author": "Marcelo Glacial Freitas",
   "license": "OSL",
   "bugs": {
-    "url": "https://github.com/marceloglacial/snowfall-boilerplate/issues"
+    "url": "https://github.com/marceloglacial/2017-nl-insurance-website/issues"
   },
-  "homepage": "https://github.com/marceloglacial/snowfall-boilerplate#readme",
+  "homepage": "https://github.com/marceloglacial/2017-nl-insurance-website#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.0",
     "browser-sync": "^2.26.3",
