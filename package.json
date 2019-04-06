@@ -1,0 +1,19 @@
+{
+  "name": "2017-nl-insurance-website",
+  "version": "0.0.1",
+  "description": "NL Insurance Agency",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloglacial/2017-nl-insurance-website.git"
+  },
+  "author": "Marcelo Glacial Freitas",
+  "license": "OSL",
+  "bugs": {
+    "url": "https://github.com/marceloglacial/2017-nl-insurance-website/issues"
+  },
+  "homepage": "https://github.com/marceloglacial/2017-nl-insurance-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
