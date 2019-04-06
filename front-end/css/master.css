@@ -5,7 +5,7 @@
 * Last modification: 11/04/2017
 */
 
-/* NOTE: General
+/* General
 -------------------------------------------------- */
 .goldenbar {
   display: block;
@@ -15,7 +15,7 @@
   background-color: #D2AB68;
 }
 
-/* NOTE: Fonts
+/* Fonts
 -------------------------------------------------- */
 
 body {
@@ -23,28 +23,30 @@ body {
   height: 100%;
 }
 
-/* NOTE: Main
+/* Main
 -------------------------------------------------- */
 #Main {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 80px 0 0 0;
 }
 
 
-/* NOTE: Header
+/* Header
 -------------------------------------------------- */
 header {
   position: relative;
 }
+
 .navbar-default {
   background-color: #FFF !important;
   border: none;
 }
+
 h1 {
   padding: 0;
   margin: 0;
 }
+
 .navbar .container .navbar-brand {
   position: absolute;
   display: block;
@@ -56,17 +58,20 @@ h1 {
 
   border-bottom: solid 10px #D2AB68;
 }
+
 .navbar .navbar-nav li a {
   height: 80px;
   padding-top: 30px;
 
   color: #09294D;
 }
+
 .navbar .navbar-nav li a:hover,
 .navbar-default .navbar-nav>.active>a:hover {
   background-color: #D2AB68;
   color: #FFF;
 }
+
 .navbar-default .navbar-nav>.active>a {
   background: url("../img/menu-over.png") no-repeat center 53px;
   color: #09294D;
@@ -74,12 +79,13 @@ h1 {
 }
 
 
-/* NOTE: Hero Carousel
+/* Hero Carousel
 -------------------------------------------------- */
 .carousel {
   max-height: 600px;
   overflow: hidden;
 }
+
 .carousel-indicators {
   /* Reset BS */
   bottom: auto;
@@ -91,14 +97,17 @@ h1 {
   width: 95%;
   text-align: right;
 }
+
 .carousel-indicators li {
   background: #FFF;
   margin-left: 10px;
 }
+
 .carousel-indicators .active {
   border-color: #D2AB68;
   border-width: medium;
 }
+
 .carousel-caption {
   /* Reset BS */
   right: auto;
@@ -113,14 +122,17 @@ h1 {
   text-align: left;
   font-size: 18px;
 }
+
 .carousel-caption h3 {
   font-size: 45px;
   font-weight: bolder;
 }
+
 .carousel-caption p {
   color: #FFF;
   text-align: left;
 }
+
 .carousel-caption a {
   text-transform: capitalize;
   display: inline-block;
@@ -128,21 +140,24 @@ h1 {
   border: solid 2px #D2AB68;
   color: #FFF;
 }
+
 .carousel-caption h3,
 .carousel-caption p,
 .carousel-caption a {
   max-width: 380px;
   margin-bottom: 30px;
 }
+
 .carousel img {
   min-width: 100%;
 }
 
-/* NOTE: Sections General
+/* Sections General
 -------------------------------------------------- */
 section {
   clear: both;
 }
+
 h4 {
   text-align: center;
   font-size: 70px;
@@ -160,60 +175,69 @@ section p {
 }
 
 
-/* NOTE: Services
+/* Services
 -------------------------------------------------- */
 #Services {
   padding: 55px;
 
 }
+
 #Services ul {
   padding: 0;
   max-width: 720px;
   margin: 0 auto;
 }
+
 #Services ul li {
   list-style: none;
   text-align: center;
   height: 200px;
   padding-top: 50px;
 }
+
 #Services ul li a {
   color: #09294D;
   font-size: 20px;
   font-weight: bolder;
 }
+
 #Services img {
   display: block;
   margin: 20px auto;
   height: 46px;
 }
 
-/* NOTE: Video
+/* Video
 -------------------------------------------------- */
 #Video {
   background: #09294D;
   padding: 80px 190px 0 190px;
 }
+
 #Video h4 {
   font-size: 60px;
   color: #FFF;
 }
+
 #Video p {
   color: #FFF;
   padding-bottom: 40px;
 }
+
 #Video .goldenbar {
   margin-top: 80px;
 }
 
-/* NOTE: Visit
+/* Visit
 -------------------------------------------------- */
 #Visit {
   position: relative;
 }
+
 #Visit img {
   max-width: 100%;
 }
+
 #Visit .visit-box {
   margin: 0 auto -50px auto;
   max-width: 460px;
@@ -226,11 +250,12 @@ section p {
   position: relative;
   top: -100px;
 }
+
 #Visit h4 {
   color: #09294D;
 }
 
-/* NOTE: Social
+/* Social
 -------------------------------------------------- */
 #Social * {
   padding: 0;
@@ -238,12 +263,14 @@ section p {
   list-style: none;
   text-align: center;
 }
+
 #Social ul {
   max-width: 320px;
   margin: 0 auto;
   padding: 0;
   padding-bottom: 50px;
 }
+
 #Social ul li a {
   display: inline-block;
   height: 35px;
@@ -252,28 +279,34 @@ section p {
   background: url("../img/social.png") top left no-repeat;
   background-size: auto 35px;
 }
+
 #Social .linkedin-icon {
   background-position: -49px;
 }
+
 #Social .instagram-icon {
   background-position: -99px;
 }
+
 #Social .youtube-icon {
   background-position: -146px;
 }
+
 #Social .google-icon {
   background-position: -197px;
 }
+
 #Social .yelp-icon {
   background-position: -245px;
 }
 
 
-/* NOTE: Contact
+/* Contact
 -------------------------------------------------- */
 #Contact {
   border-bottom: solid 10px #D2AB68;
 }
+
 #Contact .contact {
   max-width: 460px;
   margin: 0 auto;
@@ -282,18 +315,22 @@ section p {
   text-align: center;
   background: #09294D;
 }
+
 #Contact h4 {
   color: #D2AB68;
   font-size: 60px;
   padding-bottom: 15px;
 }
+
 #Contact p {
   margin: 0;
 }
+
 #Contact a {
   color: #FFF;
   font-size: 18px;
 }
+
 #Contact h6 a {
   display: inline-block;
   padding-top: 15px;
@@ -301,11 +338,12 @@ section p {
 }
 
 
-/* NOTE: Pages
+/* Pages
 -------------------------------------------------- */
 .pages-header {
   position: relative;
 }
+
 .pages-header h2 {
   color: #FFF;
   position: relative;
@@ -320,17 +358,20 @@ section p {
   background: url("../img/hero-rectangle.svg") no-repeat top left;
   background-size: 850px;
 }
+
 .pages-header img {
   position: absolute;
   top: 0;
   min-width: 100%;
   max-height: 200px;
 }
+
 article {
   margin: 0 auto;
   padding: 60px 100px;
   max-width: 1170px;
 }
+
 article h3 {
   font-size: 45px;
   font-weight: bolder;
@@ -342,6 +383,7 @@ article h3 {
   border: solid 2px #D2AB68;
   color: #4A4A4A;
 }
+
 article h4 {
   text-align: left;
   font-size: 25px;
@@ -349,6 +391,7 @@ article h4 {
   letter-spacing: normal;
   padding: 50px 0 20px 0;
 }
+
 article p {
   font-size: 18px;
   line-height: 1.8em;
@@ -356,11 +399,13 @@ article p {
   color: #4A4A4A;
   text-align: left;
 }
+
 article ul {
   font-size: 18px;
   padding-left: 100px;
   padding-bottom: 2em;
 }
+
 article blockquote {
   color: #000;
   font-style: italic;
@@ -368,82 +413,102 @@ article blockquote {
   margin: 0 auto 40px auto;
 }
 
-/* NOTE: Forms
+/* Forms
 -------------------------------------------------- */
 .content {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .content form {
   padding-bottom: 50px;
 }
+
 .content form button {
   background: #D2AB68;
   border: none;
 }
+
 .content form button:hover {
   background: #09294D;
 }
 
 
 /* -------------------------------------------------- */
-/*   NOTE: Responsive Mode */
+/*   Responsive Mode */
 /* -------------------------------------------------- */
 
 
-/* NOTE: Big Screens  -------*/
-@media screen and (min-width: 1367px){
+/* Big Screens  -------*/
+@media screen and (min-width: 1367px) {
   body {
     background: #F9F9F9;
   }
+
   #Main {
     background: #FFF;
   }
 }
 
-/* NOTE: Tablets  -------*/
-@media screen and (min-width: 768px) and (max-width: 1024px){
+/* Desktops */
+@media screen and (min-width: 1025px) {
+  header nav .container {
+    width: 100%;
+    padding: 0 70px;
+  }
+}
+
+/* Tablets  -------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar .container .navbar-brand {
     margin-top: 7px;
     margin-left: 10px;
   }
+
   .navbar .navbar-nav li {
     font-size: 80%;
   }
+
   .carousel-caption {
     padding-top: 55px;
   }
 }
 
 
-/* NOTE: Phones  -------*/
-@media screen and (max-width: 800px) {
+/* Phones  -------*/
+@media screen and (max-width: 991px) {
   #Main {
     padding-top: 74px;
   }
+
   .goldenbar {
     max-width: 200px;
     height: 7px;
   }
 
-  /* NOTE: Navbar */
+  /* Navbar */
   .navbar-default {
     border: none;
     border-bottom: solid 4px #D2AB68;
   }
+
   .navbar-header {
     height: 70px;
   }
+
   .navbar-default .navbar-toggle {
     margin-top: 20px;
     border: none;
   }
+
   .navbar-default .navbar-toggle:hover {
     background: none;
   }
+
   .navbar-default .navbar-nav>.active>a {
     background: none;
   }
+
   .navbar .container .navbar-brand {
     width: 100px;
     height: 43px;
@@ -456,10 +521,11 @@ article blockquote {
     text-indent: -9999px;
   }
 
-  /* NOTE: Carousel  */
+  /* Carousel  */
   .carousel {
     max-height: none;
   }
+
   .carousel-caption {
     position: static;
     padding: 20px 50px;
@@ -467,47 +533,53 @@ article blockquote {
     width: 100%;
     text-align: center;
   }
+
   .carousel-indicators {
     display: none;
   }
+
   .carousel-caption h3,
   .carousel-caption p,
   .carousel-caption a {
     max-width: 100%;
   }
 
-  /* NOTE: Sections General */
+  /* Sections General */
   section h4 {
     font-size: 28px;
     letter-spacing: -1px;
   }
 
-  /* NOTE: Services  */
+  /* Services  */
   #Services {
     padding: 30px 20px;
   }
 
 
-  /* NOTE: Video */
+  /* Video */
   #Video {
     background: #09294D;
     padding: 40px 35px 0 35px;
 
   }
+
   #Video p {
     padding-bottom: 20px;
   }
+
   #Video h4 {
     font-size: 24px;
   }
+
   #Video .goldenbar {
     margin-top: 50px;
   }
 
-  /* NOTE: Visit */
+  /* Visit */
   #Visit address {
     font-size: 12px;
   }
+
   #Visit .visit-box {
     max-width: 250px;
     padding-bottom: 10px;
@@ -515,38 +587,43 @@ article blockquote {
     top: -60px;
     margin-bottom: -30px;
   }
+
   #Social {
     padding-bottom: 0px;
   }
 
-  /* NOTE: Social  */
+  /* Social  */
   #Social ul {
     max-width: 250px;
     padding-bottom: 30px;
   }
 
-  /* NOTE: Contact */
+  /* Contact */
   #Contact {
     border-width: 7px;
   }
+
   #Contact .contact {
     max-width: 250px;
     padding: 25px 0 15px 0;
   }
+
   #Contact h4 {
     font-size: 35px;
     padding-bottom: 15px;
   }
+
   #Contact a {
     font-size: 14px;
   }
+
   #Contact h6 a {
     padding-top: 15px;
     font-size: 10px;
   }
 
 
-  /* NOTE: Pages */
+  /* Pages */
   .pages-header h2 {
     height: 100px;
     margin: 0;
@@ -556,13 +633,16 @@ article blockquote {
     font-size: 30px;
     letter-spacing: -1px;
   }
+
   .pages-header img {
     min-height: 100px;
     max-width: 100%;
   }
+
   article {
     padding: 25px;
   }
+
   article h3 {
     font-size: 20px;
     letter-spacing: -1px;
@@ -570,38 +650,44 @@ article blockquote {
     padding: 15px;
     margin-bottom: 20px;
   }
+
   article h4 {
     font-size: 20px;
     padding: 20px 0;
   }
+
   article p {
     font-size: 14px;
     line-height: 2em;
   }
+
   article ul {
     font-size: 14px;
     padding-left: 40px;
   }
+
   article blockquote {
     max-width: 100%;
     font-size: 14px;
   }
 }
 
-/* NOTE: Forms */
+/* Forms */
 .content {
-  padding-left:20px;
+  padding-left: 20px;
   padding-right: 20px;
 }
+
 .content form button {
   min-width: 100%;
 }
+
 .content article {
   padding-bottom: 0;
 }
 
 
-/* NOTE: Small Phones  -------*/
+/* Small Phones  -------*/
 @media screen and (max-width: 320px) {
   .carousel-caption {
     font-size: 90%;
