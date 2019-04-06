@@ -19,8 +19,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2017-nl-insurance-website/
-
+https://marceloglacial.github.io/2017-nl-insurance-website/front-end/
 
 
 ## Screenshots
