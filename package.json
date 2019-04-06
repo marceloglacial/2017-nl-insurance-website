@@ -14,9 +14,6 @@
   "homepage": "https://github.com/marceloglacial/2017-nl-insurance-website#readme",
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^6.0.0",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-imagemin": "^5.0.3"
+    "gulp": "^4.0.0"
   }
 }

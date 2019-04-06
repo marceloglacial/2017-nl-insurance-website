@@ -1,13 +1,6 @@
-// Load Gulp packages from package.json
-const gulpPackages = require('./package.json');
-const gulpDependencies = Object.keys(gulpPackages.devDependencies);
-for (const key in gulpDependencies) {
-    if (gulpDependencies.hasOwnProperty(key)) {
-        const element = gulpDependencies[key];
-        let str = element.replace('gulp-', '').replace('-', '_') + ' = require("' + element + '");';
-        eval(str);
-    }
-}
+// Load Gulp packages
+const gulp = require('gulp'),
+      browserSync = require('browser-sync')
 
 // Paths
 const frontend = new function () {
@@ -27,10 +20,9 @@ function frontendReload() {
 function frontendWatch() {
     browserSync.init({
         server: {
-            baseDir: frontend.src
+            baseDir: frontend.root
         }
     });
-    gulp.watch(frontend.sass).on('change', styles);
-    gulp.watch(frontend.src + '**/*.*').on('change', frontendReload);
+    gulp.watch(frontend.all).on('change', frontendReload);
 }
-gulp.task('gulp', frontendWatch)
+gulp.task('default', frontendWatch)
