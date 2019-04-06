@@ -5,7 +5,7 @@
 * Last modification: 11/04/2017
 */
 
-/* NOTE: General
+/* General
 -------------------------------------------------- */
 .goldenbar {
   display: block;
@@ -15,7 +15,7 @@
   background-color: #D2AB68;
 }
 
-/* NOTE: Fonts
+/* Fonts
 -------------------------------------------------- */
 
 body {
@@ -23,7 +23,7 @@ body {
   height: 100%;
 }
 
-/* NOTE: Main
+/* Main
 -------------------------------------------------- */
 #Main {
   margin: 0 auto;
@@ -31,7 +31,7 @@ body {
 }
 
 
-/* NOTE: Header
+/* Header
 -------------------------------------------------- */
 header {
   position: relative;
@@ -79,7 +79,7 @@ h1 {
 }
 
 
-/* NOTE: Hero Carousel
+/* Hero Carousel
 -------------------------------------------------- */
 .carousel {
   max-height: 600px;
@@ -152,7 +152,7 @@ h1 {
   min-width: 100%;
 }
 
-/* NOTE: Sections General
+/* Sections General
 -------------------------------------------------- */
 section {
   clear: both;
@@ -175,7 +175,7 @@ section p {
 }
 
 
-/* NOTE: Services
+/* Services
 -------------------------------------------------- */
 #Services {
   padding: 55px;
@@ -207,7 +207,7 @@ section p {
   height: 46px;
 }
 
-/* NOTE: Video
+/* Video
 -------------------------------------------------- */
 #Video {
   background: #09294D;
@@ -228,7 +228,7 @@ section p {
   margin-top: 80px;
 }
 
-/* NOTE: Visit
+/* Visit
 -------------------------------------------------- */
 #Visit {
   position: relative;
@@ -255,7 +255,7 @@ section p {
   color: #09294D;
 }
 
-/* NOTE: Social
+/* Social
 -------------------------------------------------- */
 #Social * {
   padding: 0;
@@ -301,7 +301,7 @@ section p {
 }
 
 
-/* NOTE: Contact
+/* Contact
 -------------------------------------------------- */
 #Contact {
   border-bottom: solid 10px #D2AB68;
@@ -338,7 +338,7 @@ section p {
 }
 
 
-/* NOTE: Pages
+/* Pages
 -------------------------------------------------- */
 .pages-header {
   position: relative;
@@ -413,7 +413,7 @@ article blockquote {
   margin: 0 auto 40px auto;
 }
 
-/* NOTE: Forms
+/* Forms
 -------------------------------------------------- */
 .content {
   max-width: 1000px;
@@ -435,11 +435,11 @@ article blockquote {
 
 
 /* -------------------------------------------------- */
-/*   NOTE: Responsive Mode */
+/*   Responsive Mode */
 /* -------------------------------------------------- */
 
 
-/* NOTE: Big Screens  -------*/
+/* Big Screens  -------*/
 @media screen and (min-width: 1367px) {
   body {
     background: #F9F9F9;
@@ -450,7 +450,7 @@ article blockquote {
   }
 }
 
-/* NOTE: Desktops */
+/* Desktops */
 @media screen and (min-width: 1025px) {
   header nav .container {
     width: 100%;
@@ -458,7 +458,7 @@ article blockquote {
   }
 }
 
-/* NOTE: Tablets  -------*/
+/* Tablets  -------*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar .container .navbar-brand {
     margin-top: 7px;
@@ -475,8 +475,8 @@ article blockquote {
 }
 
 
-/* NOTE: Phones  -------*/
-@media screen and (max-width: 800px) {
+/* Phones  -------*/
+@media screen and (max-width: 991px) {
   #Main {
     padding-top: 74px;
   }
@@ -486,7 +486,7 @@ article blockquote {
     height: 7px;
   }
 
-  /* NOTE: Navbar */
+  /* Navbar */
   .navbar-default {
     border: none;
     border-bottom: solid 4px #D2AB68;
@@ -521,7 +521,7 @@ article blockquote {
     text-indent: -9999px;
   }
 
-  /* NOTE: Carousel  */
+  /* Carousel  */
   .carousel {
     max-height: none;
   }
@@ -544,19 +544,19 @@ article blockquote {
     max-width: 100%;
   }
 
-  /* NOTE: Sections General */
+  /* Sections General */
   section h4 {
     font-size: 28px;
     letter-spacing: -1px;
   }
 
-  /* NOTE: Services  */
+  /* Services  */
   #Services {
     padding: 30px 20px;
   }
 
 
-  /* NOTE: Video */
+  /* Video */
   #Video {
     background: #09294D;
     padding: 40px 35px 0 35px;
@@ -575,7 +575,7 @@ article blockquote {
     margin-top: 50px;
   }
 
-  /* NOTE: Visit */
+  /* Visit */
   #Visit address {
     font-size: 12px;
   }
@@ -592,13 +592,13 @@ article blockquote {
     padding-bottom: 0px;
   }
 
-  /* NOTE: Social  */
+  /* Social  */
   #Social ul {
     max-width: 250px;
     padding-bottom: 30px;
   }
 
-  /* NOTE: Contact */
+  /* Contact */
   #Contact {
     border-width: 7px;
   }
@@ -623,7 +623,7 @@ article blockquote {
   }
 
 
-  /* NOTE: Pages */
+  /* Pages */
   .pages-header h2 {
     height: 100px;
     margin: 0;
@@ -672,7 +672,7 @@ article blockquote {
   }
 }
 
-/* NOTE: Forms */
+/* Forms */
 .content {
   padding-left: 20px;
   padding-right: 20px;
@@ -687,7 +687,7 @@ article blockquote {
 }
 
 
-/* NOTE: Small Phones  -------*/
+/* Small Phones  -------*/
 @media screen and (max-width: 320px) {
   .carousel-caption {
     font-size: 90%;
