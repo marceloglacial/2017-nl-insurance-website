@@ -6,6 +6,10 @@
     "type": "git",
     "url": "git+https://github.com/marceloglacial/2017-nl-insurance-website.git"
   },
+  "scripts": {
+    "dev": "cd front-end && gulp",
+    "start": "npm run dev"
+  },
   "author": "Marcelo Glacial Freitas",
   "license": "OSL",
   "bugs": {
@@ -13,7 +17,7 @@
   },
   "homepage": "https://github.com/marceloglacial/2017-nl-insurance-website#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.7",
     "gulp": "^4.0.0"
   }
 }
